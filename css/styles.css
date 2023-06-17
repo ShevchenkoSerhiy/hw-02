@@ -1,3 +1,51 @@
+/* Common styles */
 body {
   font-family: 'Roboto', sans-serif;
 }
+/* Rejects */
+a {
+  text-decoration: none;
+}
+
+/* Logo styles */
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+.logo .dark-title {
+  color: #2e2f42;
+}
+.logo .ligth-title {
+  color: #f4f4fd;
+}
+/**
+  |============================
+  | Header styles
+  |============================
+*/
+.header {
+}
+.header-nav {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+}
+.header-address {
+}
+.header-address-item {
+}
+.header-address-link {
+}
+/**
+  |============================
+  | Main styles first page
+  |============================
+*/
