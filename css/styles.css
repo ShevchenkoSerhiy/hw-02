@@ -7,7 +7,13 @@ a {
   text-decoration: none;
 }
 
-/* Logo styles */
+/**
+  |============================
+  | Header styles
+  |============================
+*/
+.header {
+}
 .logo {
   font-family: 'Raleway';
   font-style: normal;
@@ -17,18 +23,8 @@ a {
   letter-spacing: 0.03em;
   color: #4d5ae5;
 }
-.logo .dark-title {
+.dark-title {
   color: #2e2f42;
-}
-.logo .ligth-title {
-  color: #f4f4fd;
-}
-/**
-  |============================
-  | Header styles
-  |============================
-*/
-.header {
 }
 .header-nav {
 }
@@ -46,6 +42,77 @@ a {
 }
 /**
   |============================
-  | Main styles first page
+  | Main styles webstudio page
   |============================
 */
+.main {
+}
+.section {
+}
+.hero {
+}
+.hero-title {
+}
+.about-us {
+}
+.about-us-title {
+}
+.about-us-list {
+}
+.about-us-item {
+}
+.about-us-subtitle {
+}
+.about-us-text {
+}
+.projects {
+}
+.projects-title {
+}
+.projects-list {
+}
+.our-team {
+}
+.our-team-title {
+}
+.our-team-list {
+}
+.our-team-item {
+}
+.our-team-subtitle {
+}
+.our-team-text {
+}
+/**
+   |============================
+   | Main styles portfolio page
+   |============================
+ */
+.portfolio {
+}
+.portfolio-nav {
+}
+.portfolio-nav-item {
+}
+.portfolio-nav-button {
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-sbtitles {
+}
+.portfolio-text {
+}
+/**
+  |============================
+  | Footer styles
+  |============================
+*/
+.footer {
+}
+.ligth-title {
+  color: #f4f4fd;
+}
+.footer-text {
+}
