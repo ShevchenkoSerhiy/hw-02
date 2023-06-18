@@ -6,6 +6,9 @@ body {
 a {
   text-decoration: none;
 }
+ul,
+ol {
+}
 
 /**
   |============================
@@ -23,7 +26,7 @@ a {
   letter-spacing: 0.03em;
   color: #4d5ae5;
 }
-.dark-title {
+.logo-dark-title {
   color: #2e2f42;
 }
 .header-nav {
@@ -33,10 +36,38 @@ a {
 .header-item {
 }
 .header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-link:hover,
+.heeder-link:focus {
+  color: #434455;
+}
+.heeder-link:active {
+  color: #4d5ae5;
 }
 .header-address {
 }
+.header-address-list {
+}
 .header-address-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-address-item:hover,
+.header-address-item:focus {
+  color: #434455;
+}
+.header-address-item:active {
+  color: #4d5ae5;
 }
 .header-address-link {
 }
@@ -111,7 +142,7 @@ a {
 */
 .footer {
 }
-.ligth-title {
+.logo-ligth-title {
   color: #f4f4fd;
 }
 .footer-text {
