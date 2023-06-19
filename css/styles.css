@@ -4,6 +4,7 @@
   --main-title-color: #2e2f42;
   --main-light-bg: #ffffff;
   --main-dark-bg: #2e2f42;
+  --main-btn-cl: #4d5ae5;
 }
 /**
   |============================
@@ -41,12 +42,16 @@ button {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--main-title-color);
 }
 .subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--main-title-color);
 }
 
 /**
@@ -85,7 +90,7 @@ button {
 }
 .header-link:hover,
 .header-link:focus {
-  color: var(--main-text-color);
+  color: #404bbf;
 }
 .header-link:active {
   color: #4d5ae5;
@@ -103,11 +108,11 @@ button {
   letter-spacing: 0.02em;
 }
 
-.header-address-item:hover,
-.header-address-item:focus {
+.header-address-link:hover,
+.header-address-link:focus {
   color: #404bbf;
 }
-.header-address-item:active {
+.header-address-link:active {
   color: #4d5ae5;
 }
 .header-address-link {
@@ -125,6 +130,7 @@ button {
 }
 .section {
 }
+/* Hero-section */
 .hero {
   background: var(--main-dark-bg);
 }
@@ -133,15 +139,23 @@ button {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #ffffff;
 }
 .hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background: #4d5ae5;
   color: #ffffff;
 }
-.hero-button:active {
-  background: #404bbf;
+.hero-button:hover,
+.hero-button:focus {
+  color: #404bbf;
 }
+/* About-Us-section */
+
 .about-us {
 }
 .about-us-list {
@@ -152,13 +166,18 @@ button {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
+/* Projects-section */
+
 .projects {
 }
 .projects-list {
 }
+/* Our-team-section */
 .our-team {
+  background-color: #f4f4fd;
 }
 .our-team-list {
+  background-color: #ffffff;
 }
 .our-team-item {
 }
@@ -180,14 +199,18 @@ button {
 .portfolio-nav-item {
 }
 .portfolio-nav-button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  cursor: pointer;
+  color: var(--main-btn-cl);
 }
-.portfolio-nav-button:active {
+.portfolio-nav-button:hover,
+.portfolio-nav-button:focus {
   color: #ffffff;
+  background-color: #404bbf;
 }
 .portfolio-list {
 }
