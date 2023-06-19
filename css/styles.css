@@ -1,13 +1,51 @@
-/* Common styles */
+:root {
+  /* Colors */
+  --main-text-color: #434455;
+  --main-title-color: #2e2f42;
+  --main-button-color: #ffffff;
+  --main-dark-bg: #2e2f42;
+}
+/**
+  |============================
+  | Common styles
+  |============================
+*/
 body {
   font-family: 'Roboto', sans-serif;
+  color: var(--main-title-color);
 }
-/* Rejects */
+/* Reset */
+.link,
 a {
   text-decoration: none;
+  color: currentColor;
 }
+.list,
 ul,
 ol {
+  list-style: none;
+}
+.btn,
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+/**
+  |============================
+  | Base styles
+  |============================
+*/
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 /**
@@ -27,7 +65,7 @@ ol {
   color: #4d5ae5;
 }
 .logo-dark-title {
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 .header-nav {
 }
@@ -40,28 +78,27 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 .header-link:hover,
-.heeder-link:focus {
-  color: #434455;
+.header-link:focus {
+  color: var(--main-text-color);
 }
-.heeder-link:active {
+.header-link:active {
   color: #4d5ae5;
 }
 .header-address {
+  font-style: normal;
 }
+
 .header-address-list {
 }
 .header-address-item {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
+
 .header-address-item:hover,
 .header-address-item:focus {
   color: #434455;
@@ -81,38 +118,49 @@ ol {
 .section {
 }
 .hero {
+  background: var(--main-dark-bg);
 }
 .hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.hero-button {
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+.hero-button:active {
+  background: #404bbf;
 }
 .about-us {
 }
-.about-us-title {
-}
 .about-us-list {
 }
-.about-us-item {
-}
-.about-us-subtitle {
-}
 .about-us-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
 }
 .projects {
-}
-.projects-title {
 }
 .projects-list {
 }
 .our-team {
 }
-.our-team-title {
-}
 .our-team-list {
 }
 .our-team-item {
 }
-.our-team-subtitle {
-}
 .our-team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
 }
 /**
    |============================
@@ -126,24 +174,40 @@ ol {
 .portfolio-nav-item {
 }
 .portfolio-nav-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+}
+.portfolio-nav-button:active {
+  color: #ffffff;
 }
 .portfolio-list {
 }
 .portfolio-item {
 }
-.portfolio-sbtitles {
-}
 .portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
 }
+
 /**
   |============================
   | Footer styles
   |============================
 */
 .footer {
+  background-color: var(--main-dark-bg);
 }
 .logo-ligth-title {
   color: #f4f4fd;
 }
 .footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
