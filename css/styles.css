@@ -5,6 +5,7 @@
   --main-light-bg: #ffffff;
   --main-dark-bg: #2e2f42;
   --main-btn-cl: #4d5ae5;
+  --main-btn-bg: #f4f4fd;
 }
 /**
   |============================
@@ -206,6 +207,7 @@ button {
   letter-spacing: 0.04em;
   cursor: pointer;
   color: var(--main-btn-cl);
+  background-color: var(--main-btn-bg);
 }
 .portfolio-nav-button:hover,
 .portfolio-nav-button:focus {
